@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="de">
+
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta charset="UTF-8"/>
+        <meta name="google" content="notranslate"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title id="myTitle">Template</title>
+    </head>
+
+    <body>
+        <div class="container">
+            <header id="page-header" class="bg-dark text-white col-sm-12">
+                <h1 id="myHeading1" class="text-center">fooHeading</h1>
+            </header>
+            <div class="jumbotron">
+                <div>Zahl 1:
+                    <input type="text" id="inNumber1" placeholder="Number 1"/>
+                    <div style="color:red;" id="msgInNumber1"></div>
+                    <!-- <span style="color:red;" id="msgInNumber1"></span> -->
+                </div>
+
+                <div>
+                    Zahl 2:
+                    <input type="text" id="inNumber2" placeholder="Number 2"/>
+                    <div style="color:red;" id="msgInNumber2"></div>
+                </div>
+
+                <div style="margin-top: 1em; ">
+                    <button id="btnAdd">Addiere</button>
+                    <button id="btnSub">Subtrahiere</button>
+                    <button id="btnMult">Multipliziere</button>
+                    <button id="btnDiv">Dividiere</button>
+                    <button id="btnClear">Löschen</button>
+                    <button id="btnInfo">Info</button>
+                    <button id="btnPow">Potenzieren</button>
+                    <button id="btn10x">10 hoch x</button>
+                </div>
+            </div>
+            <div class="jumbotron">
+                <div id="output1"></div>
+            </div>
+            <div class="jumbotron">
+                <div id="output2"></div>
+            </div>
+        </div>
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,26 @@
+html {
+  font-family: 'Source Sans Pro', Verdana, Arial, Helvetica, sans-serif;
+}
+#output {
+  color: green;
+}
+
+#error {
+  color: red;
+}
+
+.commentheader {
+  color: rgb(90, 15, 38);
+}
+
+body{
+  background-color: rgb(14,14,14);
+}
+
+.jumbotron{
+  background-color:rgb(30,30,30);
+}
+
+div{
+  color: white;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <meta charset="UTF-8"/>
+        <meta name="google" content="notranslate"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+        <title id="myTitle">Template</title>
+    </head>
+    <body>
+        <div class="container">
+            <header
+                id="page-header"
+                class="bg-dark text-white col-sm-12"
+                style="border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px">
+                <h1 id="myHeading" class="text-center">fooHeading</h1>
+            </header>
+            <h3>Tempereratur erfassen:</h3>
+            <div>
+                <p>Temperatur:
+                    <input
+                        type="number"
+                        id="inWeather"
+                        placeholder="°C - max. 14 Tage"
+                        style="width: 20em;"></p>
+            <div style="color:red;" id="msgInWeather"></div>
+            </div>
+            <div id="msg"></div>
+            <div style="margin-top: 2em;">
+                <button id="btnAdd">Temperaturwert hinzufügen</button>
+            </div>
+            <div style="margin-top: 2em;">
+                <h3>Temperatur suchen:</h3>
+                <p>Temperatur:
+                    <input type="number" id="inWeatherSearch" placeholder="°C" style="width: 20em;"></p>
+             <div style="color:red;" id="msgInWeatherSearch"></div>
+                <button id="btnSearch">Suchen</button>
+            </div>
+            <div style="margin-top: 1em;">
+                <h3>Temperaturwert ändern</h3>
+                <p>Tag:
+                    <input type="number" id="inDay" placeholder="1"></p>
+              <div style="color:red;" id="msgInDay"></div>
+                <p>Neuer Wert:
+                    <input type="number" id="inNewInput" placeholder="°C"></p>
+             <div style="color:red;" id="msgInNewInput"></div>
+                <button id="btnChange">Ändern</button>
+            </div>
+            <div style="margin-top: 1em;">
+                <h3>Weitere Abfragen:
+                </h3>
+                <button id="btnShowAll">Alle anzeigen</button>
+                <button id="btnShowMin">Minimaltemperatur</button>
+                <button id="btnShowMax">Maximaltemperatur</button>
+                <button id="btnShowAverage">Durchschnittstemperatur</button>
+            </div>
+            <div style="margin-top: 3em;" id="output"></div>
+            <script src="js/main.js"></script>
+        </body>
+    </html>

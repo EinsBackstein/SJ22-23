@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="google" content="notranslate" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title id="myTitle">Template</title>
+  </head>
+  <body>
+    <div class="container">
+      <header id="page-header" class=" text-white col-sm-12" style="border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px">
+        <h1 id="myHeading" class="text-center">fooHeading</h1>
+      </header>
+      <div class="container" id="box1">
+        <input id="inIP" placeholder="IP-Address" style="margin: 15px;">
+        <p id="okMessage1" style="color: green;"></p><p id="errorMessage1" style="color: red;"></p>
+        <input id="inSubNetMask" placeholder="Subnet-Mask (short version)" style="margin: 15px; width: 15em;">
+        <p id="okMessage2" style="color: green;" ></p><p id="errorMessage2" style="color: red;"></p>
+        <br>
+        <button id="btnConvert" style="margin: 15px;"> Convert to Binary</button>
+        <button id="btnConvertSubnet"style="margin: 15px;">Convert Prefix to Subnetmask</button>
+      </div>
+      <div class="container" id="box1">
+        <p id="output1"></p>
+        <p id="output2"></p>
+      </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
